@@ -29,6 +29,7 @@ class String
 
   def count_sentences
     sentence_count = self.split(/[.!?]/).delete_if(&:blank?)
+    sentence_count = sentence_count.count
 
 
   end
