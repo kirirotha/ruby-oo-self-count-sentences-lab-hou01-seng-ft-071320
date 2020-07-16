@@ -29,7 +29,7 @@ class String
 
   def count_sentences
     split_para = self.split(/[.!?]/)
-    split_para = split_para.delete("")
+    split_para = split_para.compact
     sentence_count = split_para.count
 
   end
