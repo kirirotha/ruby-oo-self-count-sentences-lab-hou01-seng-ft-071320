@@ -24,12 +24,12 @@ class String
     else
       false
     end
-    
+
   end
 
   def count_sentences
     sentence_count = self.split(".").count
 
-    
+
   end
 end
