@@ -28,9 +28,9 @@ class String
   end
 
   def count_sentences
-    puts self.split(/[.!?]/)
-    sentence_count = self.split(/[.!?]/).count
-
+    split_para = self.split(/[.!?]/)
+    split_para = split_para.delete("")
+    sentence_count = split_para.count
 
   end
 end
